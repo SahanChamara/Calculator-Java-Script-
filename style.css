@@ -94,7 +94,7 @@ body{
     justify-content: flex-end;
     font-size: 25px;
     margin-bottom: 20px;
-    overflow-x: scroll;
+    overflow-x: hidden;
 }
 
 #display::-webkit-scrollbar{
