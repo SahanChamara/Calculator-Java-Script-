@@ -21,5 +21,30 @@ body{
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.08);
 }
 .display{
-    
+    height: 50px;
+    width: 100%;
+    outline: none;
+    border: none;
+    text-align: right;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: black;
 }
+
+.buttons{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+}
+ .buttons button{
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    transition: 1ms;
+ }
+
+ .buttons button:hover{
+    transform: scale(0.1);
+ }
