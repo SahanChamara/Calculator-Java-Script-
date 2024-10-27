@@ -11,33 +11,42 @@
 <body>
 
     <div class="container">
-        <input type="text" class="display" />
-        <div class="buttons">
-            <button class="btn-operator" id="clear">AC</button>
-            <button class="btn-operator" id="backspace"><</button>
-            <button class="btn-operator" id="clear">%</button>
-            <button class="btn-operator" id="divide">&divide;</button>
+        <div class="calculator dark">
+            <div class="theme-toggle active">
+                <i class="toggle-icon"></i>
+            </div>
+            <div class="display-screen">
+                <div id="display"></div>
+            </div>
+            <div class="buttons">
+                <button class="btn-operator" id="clear" onclick="calc()">AC</button>
+                <button class="btn-operator" id="backspace"><</button>
+                        <button class="btn-operator" id="clear">%</button>
+                        <button class="btn-operator" id="divide">&divide;</button>
 
-            <button class="btn-number" id="seven">7</button>
-            <button class="btn-number" id="eight">8</button>
-            <button class="btn-number" id="nine">9</button>
-            <button class="btn-operator" id="multiply">&times;</button>
+                        <button class="btn-number" id="seven">7</button>
+                        <button class="btn-number" id="eight">8</button>
+                        <button class="btn-number" id="nine">9</button>
+                        <button class="btn-operator" id="multiply">&times;</button>
 
-            <button class="btn-number" id="four">4</button>
-            <button class="btn-number" id="five">5</button>
-            <button class="btn-number" id="six">6</button>
-            <button class="btn-operator" id="minus">-</button>
+                        <button class="btn-number" id="four">4</button>
+                        <button class="btn-number" id="five">5</button>
+                        <button class="btn-number" id="six">6</button>
+                        <button class="btn-operator" id="minus">-</button>
 
-            <button class="btn-number" id="one">1</button>
-            <button class="btn-number" id="two">2</button>
-            <button class="btn-number" id="three">3</button>
-            <button class="btn-operator" id="plus">+</button>
+                        <button class="btn-number" id="one">1</button>
+                        <button class="btn-number" id="two">2</button>
+                        <button class="btn-number" id="three">3</button>
+                        <button class="btn-operator" id="plus">+</button>
 
-            <button class="btn-number" id="zero">0</button>
-            <button class="btn-number" id="point">.</button>
-            <button class="btn-operator" id="equal">=</button>
+                        <button class="btn-number" id="zero">0</button>
+                        <button class="btn-number" id="zero">00</button>
+                        <button class="btn-number" id="point">.</button>
+                        <button class="btn-operator" id="equal">=</button>
+            </div>
+
+
         </div>
-       
 
 
     </div>
